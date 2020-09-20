@@ -1,0 +1,80 @@
+.popup{
+    z-index: 100;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+    background: #445565;
+
+    overflow-y: scroll;
+
+}
+
+.content{
+    width: 100%;
+    max-width: 960px;
+    margin:0 auto;
+    color:#FFF;
+}
+
+.content h2{
+    font-size: 2rem;
+    font-weight: 700;
+    padding:15px;
+}
+
+.content h2 span{
+    margin-left: 20px;
+    font-size:1.6rem;
+    font-weight: 300;
+}
+
+.rating{
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.plot{
+    display: flex;
+    flex-wrap:wrap;
+    margin:15px 0;
+}
+
+.plot-img{
+    flex:1 1 50%;
+    max-width: 300px;
+    border: none;
+    border-radius: 8px;
+    margin:0px 15px 0px 15px ;
+}
+
+.plot-text{
+    flex:1 1 50%;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color:#f5f3f4;
+    margin: 0px 15px;
+    padding:15px 15px 15px 0px;
+}
+
+.close-btn{
+    display: inline-block;
+    font-size:1rem;
+    font-weight: 700;
+    outline: none;
+    border:none;
+    border-radius:8px;
+    appearance: none;
+    background-color: #4484c4;
+    color: #FFF;
+    margin-left:15px;
+    padding:15px 30px;
+    cursor:pointer;
+    transition: 0.4s ease-out;
+}
+
+.close-btn:hover{
+    background-color: #223343;
+}
